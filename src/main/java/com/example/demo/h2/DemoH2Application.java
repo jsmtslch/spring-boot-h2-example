@@ -22,7 +22,7 @@ public class DemoH2Application implements CommandLineRunner{
 
 	@Override
 	public void run(String... args) throws Exception {
-		logger.info("Student with ID:10001 -> {}", studentRepo.findByID(10001L));
+		logger.info("Student with ID:10001 --> {}", studentRepo.findByID(10001L));
 	}
 
 }
